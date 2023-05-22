@@ -1,7 +1,7 @@
 terraform-azurerm-appservices_plan_sku
 =============================================
 
-This Terraform module, `terraform-azurerm-appservices_plan_sku`, helps you create a policy to restrict the allowed App Service Plan SKUs to only those that can be used with App Service Environments (ASE).
+This Terraform module, `terraform-azurerm-appservices_plan_sku`, deploys a policy to restrict the allowed App Service Plan SKUs to only those that can be used with App Service Environments (ASE).
 
 Module was inspired by: https://www.azadvertizer.net/azpolicyadvertizer/app-service_allowed-appservicesplan-skus.html
 
