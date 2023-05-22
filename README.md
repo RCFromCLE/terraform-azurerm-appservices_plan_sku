@@ -27,7 +27,7 @@ Add the following code to your Terraform configuration, and replace the manageme
 
 The following code creates a policy assignment to enforce the policy definition created by the module:
 
-resource "azurerm_subscription_policy_assignment" "allowed_app_service_skus" {
+`resource "azurerm_subscription_policy_assignment" "allowed_app_service_skus" {
   name                 = var.policy_assignment_name_app_service_skus
   policy_definition_id = var.policy_definition_id_app_service_skus
   subscription_id      = "/subscriptions/${var.appdev-subscription_id}"
